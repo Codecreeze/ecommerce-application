@@ -58,7 +58,7 @@ const ProductList = () => {
                                 <Grid item xs={12} sm={6} md={3} lg={3} xl={3} sx={{ my: 2 }} key={index}>
                                     <Card sx={{ maxWidth: 345, height: { xs: "75vh", sm: "80vh", lg: "70vh" }, borderRadius: 5 }}>
                                         <Box sx={{ textAlign: "center", my: 3 }}>
-                                            <Typography variant='subtitle2' sx={{ color: "black" }}>{row.title}</Typography>
+                                            <Typography variant='subtitle2' sx={{ color: "black", fontWeight: "bold" }}>{row.title}</Typography>
                                             <Typography variant='subtitle2' sx={{ color: "black" }}>
                                                 <span style={{ color: "#ff6933" }}>
                                                     Price:
@@ -117,7 +117,7 @@ const ProductList = () => {
                                                 <Grid item xs={12} sm={6} md={3} lg={3} xl={3} sx={{ my: 2 }} key={index}>
                                                     <Card sx={{ maxWidth: 345, height: { xs: "75vh", sm: "80vh", lg: "70vh" }, borderRadius: 5 }}>
                                                         <Box sx={{ textAlign: "center", my: 3 }}>
-                                                            <Typography variant='subtitle2' sx={{ color: "black" }}>{row.title}</Typography>
+                                                            <Typography variant='subtitle2' sx={{ color: "black",fontWeight: "bold" }}>{row.title}</Typography>
                                                             <Typography variant='subtitle2' sx={{ color: "black" }}>
                                                                 <span style={{ color: "#ff6933" }}>
                                                                     Price:
